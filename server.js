@@ -2,7 +2,7 @@ const express = require('express')
 const exphbs = require('express-handlebars')
 const app = express()
 //environment variable for port
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 5000
 //setup view engine
 app.engine('handlebars',exphbs({defaultLayout:'main'}))
 app.set('view engine','handlebars')
